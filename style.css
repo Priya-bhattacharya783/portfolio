@@ -1,0 +1,117 @@
+header{
+    text-align: center;
+    color: #fff;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header h3{
+    font-size: 20px;
+    position: relative;
+    top: 18px;
+}
+
+header h1{
+    /* width: 100%; */
+    font-size: 50px;
+}
+
+header p{
+    position: relative;
+    bottom: 15px;
+}
+
+#cv-btn{
+    position: relative;
+    bottom: 15px;
+}
+.main{
+    background: #fff;
+    color: #000;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.des{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 33%;
+    margin-left: 5%;
+    text-align: center;
+}
+.des h2{
+    position: relative;
+    bottom: 12px;
+}
+.des h3{
+    position: relative;
+    bottom: 10px;
+    font-size: 20px;
+}
+.des p{
+    position: relative;
+    bottom: 10px;
+    text-align: justify;
+}
+
+#pic-div{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    height: 350px;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.skills-div{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.prog{
+    display: flex;
+    align-items: center;
+}
+progress{
+    position: relative;
+    left: 20px;
+}
+
+@media screen and (max-width:986px) {
+    .skills{
+        width: 90%;
+    }
+    .des h2{
+        position: relative;
+        bottom: 5px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    header h1{
+        /* width: 100%; */
+        font-size: 40px;
+    }
+    .des{
+        width: 90%;
+        position: relative;
+        top: 20px;
+    }
+    #pic-div{
+        position: relative;
+        left: 10px;
+    }
+
+}
